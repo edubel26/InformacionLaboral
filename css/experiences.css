@@ -25,7 +25,7 @@
     font-weight: bold;
     font-size: 30px;
     margin: 25px;
-    color: var(--text-color);
+    color: var(--navbar-shallow-color);
   }
   
   .experience-date {
@@ -38,18 +38,22 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-top: 5px;
+    color: var(--navbar-shallow-color);
+
   }
   
   .experience-position {
     font-weight: 500;
     font-size: 18px;
     margin-top: 20px;
+    color: var(--navbar-shallow-color);
   }
   
   .experience-description {
     font-weight: 400;
     font-size: 15px;
     margin-top: 10px;
+    color: var(--navbar-shallow-color);
   }
   
   .experience {
