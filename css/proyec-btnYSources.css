@@ -6,10 +6,13 @@
     padding: 0.5em 1em;
     border-radius: 7px;
     cursor: pointer;
+
   }
+
   .proyec-btn:hover {
     filter: brightness(130%);
   }
+  
   .sources {
     max-width: 980px;
     position: static;
@@ -26,6 +29,7 @@
     margin: 0 auto;
     margin-bottom: 0;
     padding-top: 0;
+    color: var(--navbar-shallow-color);
   }
 
 
