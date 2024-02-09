@@ -1,0 +1,51 @@
+:root {
+    --theme-color:rgb(251, 249, 250);
+    --primary-color: rgb(113, 155, 142);
+    --secundary-color: rgb(198, 175, 194);
+    --text-color-inverse: rgb(17, 23, 23);
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5;
+    --menu-mobile-background-color: #3a4460;
+    --linea-nabar: rgb(208, 73, 129);
+    --button-contact : rgb(188, 219, 210);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  section[id] {
+    scroll-margin-top: 70px;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    padding-top: 70px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .vertical-padding {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  @media (min-width: 950px) {
+    .horizontal-padding {
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+    .vertical-padding {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
