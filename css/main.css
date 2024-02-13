@@ -1,30 +1,50 @@
 :root {
-    --theme-color:rgb(251, 249, 250);
-    --primary-color: rgb(113, 155, 142);
-    --secundary-color: rgb(198, 175, 194);
-    --text-color-inverse: rgb(17, 23, 23);
-    --text-color: black;
-    --navbar-shallow-color: #e5e5e5;
-    --menu-mobile-background-color: #3a4460;
-    --linea-nabar: rgb(208, 73, 129);
-    --button-contact : rgb(188, 219, 210);
+  --theme-color: rgb(251, 249, 250);
+  --primary-color: rgb(113, 155, 142);
+  --secondary-color: rgb(198, 175, 194);
+  --text-color-inverse: #e5e5e5;
+  --text-color: black;
+  --menu-mobile-background-color: #3a4460;
 
-    --accent-color: var(--primary-color);
-    --primary-color-inverse: black ;
+  --accent-color: var(--primary-color);
+  --primary-color-inverse: black ;
+
+  --navbar-shallow: 0 4px 5px #e5e5e5;
+  --tag-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  --transition: 0.2s ease-in-out ;
+  color-scheme: light;
   }
-  
-:root {
 
-    --theme-color-oscu: #0f172a;
-    --primary-color-oscu: #243043;
-    --secondary-color-oscu: #9dc8db;
-    --text-color-inverse-oscu: rgba(255, 255, 255, 0.87);
-    --text-color-oscu: black;
-    --navbar-shallow-color-oscu: #e5e5e5;
-    --menu-mobile-background-color-oscu: #18213e;
+/*@media (prefers-color-scheme: dark){*/
+:root[data-theme="dark"] {
 
-    --accent-color: var(--secondary-color-oscu);
+    --theme-color: #0f172a;
+    --primary-color: #243043;
+    --secondary-color: #9dc8db;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --text-color-inverse: var(--text-color) ;
+    --menu-mobile-background-color: #18213e;
+
+    --accent-color: var(--secondary-color);
+    --navbar-shallow: 0 1px  rgba(51, 65, 85, 0.8);
+    --tag-shadow: 0 0 0 1px #ffffff;
+    color-scheme: dark;
   }
+/*}*/ 
+
+form {
+  color-scheme: light ;
+}
+
+* {
+  transition: background-color var(--transition), box-shadow var(--transition);
+}
+
+svg {
+
+  transition: color var(--transition);
+}
+
 
   html {
     scroll-behavior: smooth;
