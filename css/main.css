@@ -1,10 +1,10 @@
 :root {
   --theme-color: rgb(251, 249, 250);
   --primary-color: rgb(113, 155, 142);
-  --secondary-color: rgb(198, 175, 194);
+  --secondary-color: rgb(187, 187, 187);
   --text-color-inverse: #e5e5e5;
   --text-color: black;
-  --menu-mobile-background-color: #3a4460;
+  --menu-mobile-background-color: rgb(61, 85, 77);
 
   --accent-color: var(--primary-color);
   --primary-color-inverse: black ;
@@ -13,24 +13,25 @@
   --tag-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   --transition: 0.2s ease-in-out ;
   color-scheme: light;
+  
   }
 
-/*@media (prefers-color-scheme: dark){*/
+
 :root[data-theme="dark"] {
 
-    --theme-color: #0f172a;
-    --primary-color: #243043;
-    --secondary-color: #9dc8db;
+    --theme-color: rgb(113, 155, 142);
+    --primary-color: rgb(61, 85, 77);
+    --secondary-color: #fcfcfc;
     --text-color: rgba(255, 255, 255, 0.87);
     --text-color-inverse: var(--text-color) ;
-    --menu-mobile-background-color: #18213e;
+    --menu-mobile-background-color: rgba(113, 155, 142);
 
     --accent-color: var(--secondary-color);
-    --navbar-shallow: 0 1px  rgba(51, 65, 85, 0.8);
+    --navbar-shallow: 0 1px  rgba(51, 85, 57, 0.8);
     --tag-shadow: 0 0 0 1px #ffffff;
     color-scheme: dark;
   }
-/*}*/ 
+/}/ 
 
 form {
   color-scheme: light ;
