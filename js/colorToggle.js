@@ -1,3 +1,4 @@
+
 const lightModeBtn = document.querySelector(".light-mode-btn");
 const darkModeBtn = document.querySelector(".dark-mode-btn");
 
